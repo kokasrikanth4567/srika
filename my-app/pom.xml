@@ -26,6 +26,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Manikanta-PC-releases</name>
+        <url>http://localhost:8081/artifactory/srikanth</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Manikanta-PC-snapshots</name>
+        <url>http://localhost:8081/artifactory/srikanth</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
